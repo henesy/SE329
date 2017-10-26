@@ -9,7 +9,7 @@ Google Maps
 
 ### Contributors
 ```
-Matt Mafuhrm
+Matt Fuhrmann
 Sean Hinchee
 Austin Kerr
 Thomas Kirby
