@@ -11,8 +11,11 @@ public class LotInformationReport extends JSONRequest {
 
 	@Override
 	public JSONResponse getResponder() {
-		// Add report to database
-		
+		writeToDatabase();
 		return new FormReceivedResponse();
+	}
+	
+	private void writeToDatabase() {
+		//TODO
 	}
 }

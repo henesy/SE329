@@ -16,8 +16,12 @@ public class LotInformationRequest extends JSONRequest {
 	@Override
 	public JSONResponse getResponder() {
 		ArrayList<ParkingLot> lots = new ArrayList<ParkingLot>();
-		// Query the database for nearby lots
-		
+		lots = queryLots();
 		return new LotInformationResponse(lots);
+	}
+	
+	private ArrayList<ParkingLot> queryLots() {
+		//TODO
+		return null;
 	}
 }

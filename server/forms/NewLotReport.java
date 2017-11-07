@@ -12,7 +12,11 @@ public class NewLotReport extends JSONRequest {
 
 	@Override
 	public JSONResponse getResponder() {
-		// Add the report to the database
+		writeToDatabase();
 		return new FormReceivedResponse();
+	}
+	
+	private void writeToDatabase() {
+		//TODO
 	}
 }
