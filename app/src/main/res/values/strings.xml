@@ -4,11 +4,16 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_map">Map</string>
+
+    <!-- Google Maps -->
 
     <!--Messages-->
     <string name="welcome">Welcome to our SE 329 app!</string>
 
     <!--Buttons-->
 
-    <!--Labels-->
+    <!--Markers-->
+    <string name="ames">Description of lot.</string>
+
 </resources>
