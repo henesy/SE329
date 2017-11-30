@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minHeight="300dp"
+    android:minWidth="1000dp"
+    android:padding="18dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PARK HERE?"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="How many hours would you like to park for?"
+        android:textColor="#000"
+        android:textSize="13dp"
+        android:textStyle="normal"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"></Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:visibility="gone"
+            android:text="Rate/hr: "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/charge"
+            android:textColor="#f00"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Please note: " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/notes"
+            android:textColor="#f00"
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/proceed"
+        android:text="PROCEED"
+        android:background="#5ea25e"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="All Parking rates"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:visibility="gone"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:text="$0.75/hr  Monday - Friday from 7:00 am – 5: 30 pm, free all other time (Free on weekend)
+\n
+Special Note:  Memorial Union has its own cost
+\n
+ First 30 Min. - $1.00\n
+1 hour - $2.00\n
+2 hours - $3.50\n
+3 hours - $5.00\n
+4 hours - $6.50\n
+5 hours - $8.00\n
+6 hours - $9.25\n
+7 hours - $10.50\n
+8 hours-  $11.50\n
+Maximum daily parking fee (24 hours): $12.50\n
+"
+        />
+
+</LinearLayout>

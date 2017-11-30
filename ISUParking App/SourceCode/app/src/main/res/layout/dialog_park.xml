@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minHeight="300dp"
+    android:minWidth="1000dp"
+    android:padding="18dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM PARKING?"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:visibility="gone"
+            android:text="Rate/hr: "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/charge"
+            android:textColor="#f00"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:layout_marginTop="6dp"
+            android:textColor="#946969"
+            android:text="Contact Parking Divison"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textColor="#090fc0"
+            android:text="Phone: 515-294-3388"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textColor="#090fc0"
+            android:text="ISU general Information: 515-294-4000 "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:layout_marginTop="8dp"
+            android:textColor="#c0090c"
+            android:id="@+id/viewMaps"
+            android:text="TAP TO VIEW DIRECTIONS ON MAPS"
+           />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/proceed"
+        android:text="OK"
+        android:background="#5ea25e"/>
+
+</LinearLayout>
