@@ -9,6 +9,7 @@ Google Maps
 
 ### Contributors
 ```
+Ram Luitel
 Matt Fuhrmann
 Sean Hinchee
 Austin Kerr
