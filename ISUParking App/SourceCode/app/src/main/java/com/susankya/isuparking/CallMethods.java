@@ -1,4 +1,4 @@
-package com.susankya.isuparking;
+package com.rluitel.isuparking;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 /**
- * Created by Aditya on 11/21/2017.
+ * Created by Ram  on 11/21/2017.
  */
 
 public interface CallMethods {

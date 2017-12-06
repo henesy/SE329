@@ -1,7 +1,7 @@
-package com.susankya.isuparking;
+package com.rluitel.isuparking;
 
 /**
- * Created by Aditya on 11/21/2017.
+ * Created by Ram  on 11/21/2017.
  */
 
 public class Category {

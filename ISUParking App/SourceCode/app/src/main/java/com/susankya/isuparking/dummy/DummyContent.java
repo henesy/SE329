@@ -1,4 +1,4 @@
-package com.susankya.isuparking.dummy;
+package com.rluitel.isuparking.dummy;
 
 import java.util.ArrayList;
 import java.util.HashMap;

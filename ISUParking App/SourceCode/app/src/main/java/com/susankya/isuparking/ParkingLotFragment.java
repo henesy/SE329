@@ -1,4 +1,4 @@
-package com.susankya.isuparking;
+package com.rluitel.isuparking;
 
 import android.app.Dialog;
 import android.content.Context;
